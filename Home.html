@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Recipes from many plainscapes">
@@ -8,12 +8,16 @@
         <meta name="author" content="Garrett Dawson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Garrett Dawson, 5/25/24, Create and validate Html website-->
+        <link rel="stylesheet" href="Home.css">
         <title>
             Fizbain's Exotic Recipes
         </title>
-    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Wavefont:wght@4..1000&display=swap" rel="stylesheet">
+
     </head>
-    
+
 
 
     <body>
@@ -23,26 +27,32 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-    
+
           gtag('config', 'G-YB8Q4P6VKF');
         </script>
     <header>
 
         <h1>
             <img src="Logofer.jpg" style="height: 200px;" alt="Logo">
-            Fizbain's Exotic Recipes
+            <span>Fizbain's Exotic Recipes</span>
         </h1>
     </header>
 
-    
+
         <nav>
-            <a href="Home.html">home</a> <a href="index.html">Index</a> <a href="Suggest.html">Suggest Recipes</a>
+            <ul>
+            <li><a href="Home.html">home</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="Suggest.html">Suggest Recipes</a></li>
+            </ul>
         </nav>
 
-        <div style="background-color:greenyellow; word-wrap: normal; width: 500px;">
-            “Welcome to Fizbain's exotic Recipes: here we catalog and share all sorts of delightful meals from across the planes of existence, please note that these recipes may not agree with every species' diet, and some may not be possible with the ingredients of your world. Substitute ingredients where needed. If you have a recipe to add please submit it to our collection page!”
+        <div style="background-color:greenyellow; word-wrap: normal; width: 55%;" id="textblock">
+            Welcome to Fizbain's exotic Recipes: here we catalog and share all sorts of delightful meals from across the planes of existence, please note that these recipes may not agree with every species' diet, and some may not be possible with the ingredients of your world. Substitute ingredients where needed. If you have a recipe to add please submit it to our collection page!
         </div>
-        <img src="rat1.jpg" style="width: 100px;" alt="Rat1"><img src="rat2.jpg" style="width: 100px;" alt="Rat2"><img src="bat.jpg" style="width: 100px;" alt="Bat"><img src="ostritch.jpg" style="width: 100px;" alt="Ostritch"><img src="leopard.jpg" style="width: 100px;" alt="Leopard">
+        <div id="imagegroup">
+        <img src="rat1.jpg"  alt="Rat1"><img src="rat2.jpg"  alt="Rat2"><img src="bat.jpg"  alt="Bat"><img src="ostritch.jpg"  alt="Ostritch"><img src="leopard.jpg"  alt="Leopard">
+        </div>
         <section>
             <h3>
                 Contact us:
@@ -50,7 +60,7 @@
             <ul>
                 <li>Phone: (095)-952-9911</li>
                 <li>Email: FER@multiv.realm</li>
-                <li>interplanetary contact runes:<div> (will add with css later)</div></li>
+                <li>interplanetary contact runes:<div> ( w i l l   a d d   w i t h   c s s   l a t e r )</div></li>
             </ul>
         </section>
     </body>
