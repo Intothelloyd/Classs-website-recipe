@@ -41,11 +41,6 @@ nav li{
     display: flex;
     flex-grow: 10;
 
-
-
-
-
-
 }
 li a{
     display: flex;
@@ -60,19 +55,11 @@ li a{
     justify-content: center;
     flex-grow: 10;
 
-
-
-
-
-
 }
 li a:hover {
     background-color: black;
     color: white;
   }
-
-
-
 
 
 #textblock{
